@@ -12,7 +12,7 @@ class NonOrdinalizableException(Exception):
 
 def ordinalize(cardinal):
     """
-    Ordinalizes the input number. If a non-integer input is give, exception is raised.
+    Ordinalizes the input number. If a non-integer input is given, exception is raised.
     :param cardinal: an integer is expected
     :raise: NonOrdinalizableException if input is not an integer
     :return: The ordinal string for the given cardinal number
